@@ -1,0 +1,38 @@
+# sleuth配置
+spring:
+  zipkin:
+    rabbitmq:
+      queue: zipkin
+  sleuth:
+    sampler:
+      percentage: 1    
+
+mybatis-plus:
+  mapper-locations: classpath:/mapper/*Mapper.xml
+  typeAliasesPackage: com.yukong.entity
+  global-config:
+    db-config:  
+      id-type: AUTO
+      field-strategy: NOT_EMPTY
+      table-underline: true
+      logic-delete-value: 1
+      logic-not-delete-value: 0
+  configuration:
+    map-underscore-to-camel-case: true
+    cache-enabled: false
+    #配置JdbcTypeForNull, oracle数据库必须配置
+    jdbc-type-for-null: 'null'
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+
+ignore:
+  urls:
+  - /token/**
+  - /mobile/**
+  - /**/*.css
+  - /auth/**
+  - /refresh/**
+  - /swagger-ui.html
+  - /swagger-resources/**
+  - /*/v2/api-docs
+  - /webjars/**
+  - /finace/**
