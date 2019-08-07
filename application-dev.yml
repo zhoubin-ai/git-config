@@ -14,7 +14,7 @@ spring:
       url: jdbc:mysql://127.0.0.1:3306/cloud?useUnicode=true&characterEncoding=UTF8&useSSL=false&autoReconnect=true
       driver-class-name: com.mysql.jdbc.Driver
       username: root
-      password: root
+      password: zb001125.
       max-idle: 10
       min-idle: 5
       test-on-borrow: false
@@ -27,7 +27,7 @@ spring:
       url: jdbc:mysql://127.0.0.1:3306/finace?useUnicode=true&characterEncoding=UTF8&useSSL=false&autoReconnect=true
       driver-class-name: com.mysql.jdbc.Driver
       username: root
-      password: root
+      password: zb001125.
       max-idle: 10
       min-idle: 5
       test-on-borrow: false
