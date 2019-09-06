@@ -18,4 +18,4 @@ ignore:
   - /swagger-resources/**
   - /*/v2/api-docs
   - /webjars/**
-  - /finace/getUserInfo/**
+  - /finace/wechat/getUserInfo/**
