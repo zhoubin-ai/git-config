@@ -6,17 +6,3 @@ spring:
   sleuth:
     sampler:
       percentage: 1    
-
-
-
-ignore:
-  urls:
-  - /token/**
-  - /mobile/**
-  - /**/*.css
-  - /auth/**
-  - /refresh/**
-  - /swagger-ui.html
-  - /swagger-resources/**
-  - /*/v2/api-docs
-  - /webjars/**
