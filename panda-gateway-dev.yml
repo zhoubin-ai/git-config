@@ -6,20 +6,6 @@ spring:
     sampler:
       percentage: 1
 
-ignore:
-  urls:
-  - /**/*.css
-  - /auth/**
-  - /admin/user/mobile/**
-  - /refresh/**
-  - /swagger-ui.html
-  - /swagger-resources/**
-  - /*/v2/api-docs
-  - /webjars/**
-  - /doc.html
-  - /zipkin/**
-  - /finace/**
-
 swagger:
   client:
     - panda-user-service
