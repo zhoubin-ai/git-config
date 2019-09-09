@@ -11,3 +11,4 @@ spring:
 ignore:
   urls:
   - /oauth/token
+  - /auth/oauth/token
