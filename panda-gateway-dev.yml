@@ -19,7 +19,7 @@ ignore:
   - /doc.html
   - /zipkin/**
   - /finace/wechat/getUserInfo/**
-  - /oauth/token
+
 
 swagger:
   client:
