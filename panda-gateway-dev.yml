@@ -18,7 +18,7 @@ ignore:
   - /webjars/**
   - /doc.html
   - /zipkin/**
-  - /finace/wechat/getUserInfo/**
+  #- /finace/wechat/getUserInfo/**
 
 swagger:
   client:
