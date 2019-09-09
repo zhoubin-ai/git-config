@@ -9,7 +9,7 @@ spring:
 ignore:
   urls:
   - /**/*.css
-  - /auth/**
+  - /1auth/**
   - /admin/user/mobile/**
   - /refresh/**
   - /swagger-ui.html
