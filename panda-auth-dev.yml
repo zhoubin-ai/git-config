@@ -8,6 +8,3 @@ spring:
       percentage: 1
 
 
-ignore:
-  urls:
-  - /*/**
