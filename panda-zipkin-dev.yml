@@ -10,10 +10,3 @@ zipkin:
   storage:
     type: mysql
     StorageComponent: mysql
-
-#关闭验证
-management:
-  metrics:
-    web:
-      server:
-        auto-time-requests: false
